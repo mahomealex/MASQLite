@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MASQLite_Example' do
+  pod 'MASQLite', :path => '../'
+
+  target 'MASQLite_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
