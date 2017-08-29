@@ -1,0 +1,28 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MASQLite (0.1.0):
+    - SQLite.swift
+  - SQLite.swift (0.11.2):
+    - SQLite.swift/standard (= 0.11.2)
+  - SQLite.swift/standard (0.11.2)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MASQLite (from `../`)
+
+EXTERNAL SOURCES:
+  MASQLite:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MASQLite: 5b566e7a10eba91ee2680f5ac40766172de60c3d
+  SQLite.swift: 670c3e9e0a806bbfd56a3de5d530768dc0e6fe7c
+
+PODFILE CHECKSUM: 12bd0b7a17210cfa7b0516a446b8c483bb9578c6
+
+COCOAPODS: 1.2.1
