@@ -184,7 +184,7 @@ public class MAOperation : NSObject, SerialDispatch {
         #if DEBUG
             fatalError(message)
         #else
-            _log_info(message)
+            print(message)
         #endif
     }
     
